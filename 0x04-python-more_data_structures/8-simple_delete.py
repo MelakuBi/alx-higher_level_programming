@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-def multiple_returns(sentence):
-    return len(sentence), sentence[0] if sentence else None
+def simple_delete(a_dictionary, key=""):
+    a_dictionary.pop(key, None)
+    return a_dictionary
