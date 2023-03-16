@@ -7,4 +7,4 @@ THIS 0X17 project was has the following sections
 5-get_dnodeint.c
 6-sum_dlistint.c
 7-insert_dnodeint.c
-8-delete_dnodeint.c
+8-delete_dnodeint.C
