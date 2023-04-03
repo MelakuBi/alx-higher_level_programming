@@ -6,4 +6,6 @@ Module creates the Rectangle class
 
 class Rectangle:
     """Empty class Rectangle"""
-    pass
+    def any(self):
+p = Rectangle()
+p.any()
