@@ -2,4 +2,4 @@
 class Rectangle:
     def Rectangle(self):
 p = Rectangle()
-p.Rectangle
+p.__dict__
