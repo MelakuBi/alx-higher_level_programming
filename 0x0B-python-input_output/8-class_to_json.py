@@ -1,15 +1,14 @@
 #!/usr/bin/python3
+""" My class module
 """
-Load from JSON
-"""
-import json
-"""import JSON Module"""
 
-
-def load_from_json_file(filename):
-    """
-    Load from Json and write to a file
+class MyClass:
+    """ My class
     """
 
-    with open(filename, 'r', encoding='utf8') as file:
-        return json.load(file)
+    def __init__(self, name):
+        self.name = name
+        self.number = 0
+
+    def __str__(self):
+        return "[MyClass] {} - {:d}".format(self.name, self.number)
