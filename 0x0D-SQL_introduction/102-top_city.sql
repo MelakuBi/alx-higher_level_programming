@@ -1,3 +1,4 @@
+-- also this comment 
 SELECT `city`, AVG(`value`) AS `avg_temp`
 FROM `month` = 7 or `month` = 8
 GROUP BY `city`

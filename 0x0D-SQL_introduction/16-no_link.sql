@@ -1,3 +1,4 @@
+-- first line needs comment
 SELECT `score`, `name`
 FROM `second_table`
 WHERE `name` != ""
