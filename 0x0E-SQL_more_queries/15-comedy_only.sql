@@ -1,9 +1,7 @@
 -- Only Comedy
 SELECT `title`
 	FROM `tv_shows`
-	INNER JOIN `tv_show_genres`
-	ON `id` = `show_id`
 	INNER JOIN `tv_genres`
-	ON `id` = `genre_id`
-	WHERE `name` = "Comedy"
-	ORDER BY `title`;
+	ON tv_shows.`id` = tv_genres.`id`
+	WHERE tv_genres.`name` = "Comedy"
+	ORDER BY tv_shows.`title`;
