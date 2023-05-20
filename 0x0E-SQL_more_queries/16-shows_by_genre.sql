@@ -1,8 +1,8 @@
 -- List shows and genres
-SELECT `title`, `name`
-	FROM `tv_shows`
---	LEFT JOIN ``tv_genres`
---	ON `id` = `show_id`
-	LEFT JOIN `tv_genres`
-	ON tv_shows.`id` = tv_genres.`id`
-	ORDER BY `title`, `name`;
+SELECT s.title, g.name
+	FROM tv_shows AS s
+	LEFT JOIN tv_show_genres AS tsg
+	ON s.id=tsg.show_id
+	LEFT JOIN tv_genres AS g
+	ON g.id=tsg.genre_id
+	ORDER BY s.title, g.name;
