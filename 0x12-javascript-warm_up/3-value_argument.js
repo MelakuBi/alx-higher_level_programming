@@ -1,4 +1,4 @@
-#!/bin/bash/node
+#!/usr/bin/node
 const countArg = process.argv;
 if (countArg === 0)
 {

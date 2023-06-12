@@ -1,4 +1,4 @@
-#!/bin/bash/node
+#!/usr/bin/node
 import { cpuUsage } from 'node:process';
 let startusage = cpuUsage();
 if (startusage[argc] === 1)
