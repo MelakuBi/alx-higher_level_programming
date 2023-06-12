@@ -1,4 +1,5 @@
 #!/usr/bin/node
+//comment 
 const is = 'is';
 let hold = process.argv
 /*if (hold.length < 2)

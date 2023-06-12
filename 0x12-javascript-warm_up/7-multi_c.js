@@ -1,4 +1,5 @@
 #!/usr/bin/node
+// my comment goes here
 const mult = process.argv[2];
 if (isNaN(mult))
 {
