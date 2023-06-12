@@ -5,9 +5,8 @@ function factorial(n)
 {
 	return 1;
 }
-else
-{
+else {
 	return n * factorial(n - 1);
-}
+ } 
 }
 console.log(factorial(parseInt(process.argv[2])));
