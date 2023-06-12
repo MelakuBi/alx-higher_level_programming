@@ -1,11 +1,10 @@
 #!/usr/bin/node
-import { cpuUsage } from 'node:process';
-let startusage = cpuUsage();
-if (startusage[argc] === 1)
+let startusage = process.argv.length;
+if (startusage === 2)
 {
 	console.log('No argument');
 }
-else if (startusage[argc] === 2)
+else if (startusage === 3)
 {
 	console.log('Argument found');
 }

@@ -1,10 +1,10 @@
 #!/usr/bin/node
 const countArg = process.argv;
-if (countArg === 0)
+if (countArg === 2)
 {
 	console.log('No argument');
 }
 else
 {
-console.log(countArg[1]);
+console.log(countArg[2]);
 }
