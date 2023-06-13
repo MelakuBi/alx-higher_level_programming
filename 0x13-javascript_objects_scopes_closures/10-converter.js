@@ -1,6 +1,6 @@
 #!/usr/bin/node
 //need attentop
-exports.converter = fucntion (base)
+exports.converter = function (base)
 {
 	return function (argv)
 	{

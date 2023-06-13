@@ -2,12 +2,12 @@
 /* function that returns the reversed 
  * version of a list
  */
-exports.eserver = fucntion(list)
+exports.eserver = function (list)
 {
-	const newlist = [];
+	const newList = [];
 	for (let i = list.length - 1; i >= 0; i--)
 	{
-		newlist.push(list[i]);
+		newList.push(list[i]);
 	}
 	return newlist;
 };
