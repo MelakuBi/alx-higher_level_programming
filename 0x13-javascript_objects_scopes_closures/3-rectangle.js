@@ -10,7 +10,7 @@ class Rectangle
 			this.height = h;
 		}
 	}
-	print ()
+	print()
 	{
 		for (let i = 0; i < this.height; i++)
 		{

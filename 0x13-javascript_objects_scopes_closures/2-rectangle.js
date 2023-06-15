@@ -1,6 +1,6 @@
 #!/usr/bin/node
 //rectangle class defination
-class Rectangle 
+class Rectangle
 {
 	constructor(w, h)
 	{

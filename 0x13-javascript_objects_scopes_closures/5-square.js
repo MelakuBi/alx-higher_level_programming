@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // class that define square
 const Rectangle = require('./4-rectangle');
-class square extends Rectangle 
+class square extends Rectangle
 {
 	constructor(size)
 	{
