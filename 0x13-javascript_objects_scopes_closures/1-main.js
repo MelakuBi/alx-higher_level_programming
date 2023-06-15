@@ -1,4 +1,5 @@
 #!/usr/bin/node
+//main fun for 1-rectangle
 const Rectangle = require('./1-rectangle');
 
 const r1 = new Rectangle(2, 3);
