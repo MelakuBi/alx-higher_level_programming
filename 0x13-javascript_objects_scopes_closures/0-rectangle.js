@@ -1,4 +1,4 @@
 #!/usr/bin/node
-// Empty Rectangle class 
+// empty class blueprintd
 class Rectangle {}
 module.exports = Rectangle;
