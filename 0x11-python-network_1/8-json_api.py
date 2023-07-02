@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Task 8. Search API
+''' Task 8. Search API '''
 if __name__ == "__main__":
     import sys
     import requests

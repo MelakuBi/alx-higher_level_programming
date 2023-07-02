@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Task 7. Error code #1
+''' Task 7. Error code #1 '''
 if __name__ == "__main__":
     import sys
     import requests
