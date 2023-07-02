@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-import urllib
+import urllib.request
 import sys
 if __name__ == "__main__":
-    with urllib.request(argv[1]) as response:
-        response.headers['X-Request-Id']
-
+    with urllib.request.urlopen(sys.argv[1]) as response:
+        final = response.headers['X-Request-Id']
+    print(final) 
