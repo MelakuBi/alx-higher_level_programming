@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Task 5. Response header value #1
+''' Task 5. Response header value #1 '''
 if __name__ == "__main__":
     import sys
     import requests

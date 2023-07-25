@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Task 3. Error code #0
+''' Task 3. Error code #0 '''
 if __name__ == "__main__":
     from sys import argv
     from urllib import request, error

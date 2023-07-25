@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Task 6. POST an email #1
+'''  Task 6. POST an email #1 '''
 if __name__ == "__main__":
     import sys
     import requests

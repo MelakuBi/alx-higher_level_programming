@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Task 8. Search API
+''' Task 8. Search API '''
 if __name__ == "__main__":
     import sys
     import requests
@@ -13,7 +13,9 @@ if __name__ == "__main__":
         the_resp = my_req.json()
         if not the_resp:
             print("No result")
+            raise
+            print("Not a Valid JSON")
         else:
             print("[{}] {}".format(the_resp.get('id'), the_resp.get('name')))
     except:
-        print("Not a valid JSON")
+        print("Not a Valid JSON")
